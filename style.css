@@ -1,9 +1,9 @@
 /* styles.css */
-#rubber:hover {
+.rubber:hover {
     color: blue;
 }
 
-#crazy:hover {
+.crazy:hover {
     color: red;
 }
 
