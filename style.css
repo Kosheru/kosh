@@ -57,7 +57,6 @@
 .rubber:hover {
     color:red;
     position: relative;
-    font-size: 80px;
     animation: rubber;
     animation-duration: 4s;
 }
