@@ -7,7 +7,7 @@
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
     font-size: 30px;
   }
-
+/* animation */
   @keyframes waviy {
     0%,40%,100% {
       transform: translateY(0)
@@ -16,21 +16,27 @@
       transform: translateY(-20px)
     }
   }
+
 /* styles.css */
   .room span {
     position: relative;
     display: inline-block;
     color: #000000;
-    text-transform: uppercase;
     animation: waviy 1s infinite;
     animation-delay: calc(0.1s * var(--i));
 }
 .rubber:hover {
-    color: blue;
+    color:red;
+    position: relative;
+    font-size: 80px;
+    animation: rubber;
 }
 
 .crazy:hover {
-    color: red;
+    color:red;
+    position: relative;
+    font-size: 30px;
+    animation: rubber;
 }
 
 img {
