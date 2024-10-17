@@ -17,6 +17,35 @@
     }
   }
 
+  @keyframes rubber {
+    0%,20% {
+    font-size: 30px;
+    color: red;
+    }
+    40% {
+    font-size: 60px;
+    color:purple;
+    }
+    60%,100% {
+    font-size: 100px;
+    color:chartreuse;
+    }
+  }
+
+  @keyframes crazy {
+    0%,20% {
+    font-size: 15px;
+    color: red;
+    }
+    40% {
+    font-size: 25px;
+    color:purple;
+    }
+    60%,100% {
+    font-size: 45px;
+    color:chartreuse;
+    }
+  }
 /* styles.css */
   .room span {
     position: relative;
@@ -30,13 +59,13 @@
     position: relative;
     font-size: 80px;
     animation: rubber;
+    animation-duration: 4s;
 }
 
 .crazy:hover {
-    color:red;
     position: relative;
-    font-size: 30px;
-    animation: rubber;
+    animation: crazy;
+    animation-duration: 4s;
 }
 
 img {
