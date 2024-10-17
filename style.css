@@ -44,6 +44,16 @@
     color:chartreuse;
     }
   }
+
+  @keyframes hover {
+  0% {
+    // normal styles
+  }
+  100% {
+    // hover styles
+  }
+}
+
 /* styles.css */
   .room span {
     position: relative;
@@ -52,19 +62,34 @@
     animation: waviy 1s infinite;
     animation-delay: calc(0.1s * var(--i));
 }
-.rubber:hover {
+.rubber:hover, .rubber:focus, .rubber:active {
     color:red;
     position: relative;
     animation: rubber infinite;
     animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
 }
 
-.crazy:hover {
+.crazy:hover, .crazy:focus, .crazy:active {
     position: relative;
     animation: crazy infinite;
     animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
 }
-
+.crazy {
+    animation-name: hover;
+    animation-duration: 1ms;
+    animation-fill-mode: backwards;
+    animation-play-state: paused;
+}
+.rubber {
+animation-name: hover;
+animation-duration: 1ms;
+animation-fill-mode: backwards;
+animation-play-state: paused;
+}
 img {
     width: 20%;
     height: 20%;
