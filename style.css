@@ -1,8 +1,17 @@
 /* styles.css */
+#rubber:hover {
+    color: blue;
+}
+
+#crazy:hover {
+    color: red;
+}
+
 img {
     width: 20%;
     height: 20%;
 }
+
 /* nav */
 body {
     font-family: Arial, sans-serif;
