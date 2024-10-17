@@ -1,5 +1,7 @@
 /* styles.css */
-
+img {
+    width: 300px;
+}
 /* nav */
 body {
     font-family: Arial, sans-serif;
