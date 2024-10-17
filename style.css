@@ -22,9 +22,6 @@
     }
   }
 /* styles.css */
-.room {
-    animation: waviy 1s infinite;
-}
 .rubber:hover {
     color: blue;
 }
