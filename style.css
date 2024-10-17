@@ -19,7 +19,6 @@
 
   @keyframes rubber {
     0%,20% {
-    font-size: 30px;
     color: red;
     }
     40% {
@@ -34,7 +33,6 @@
 
   @keyframes crazy {
     0%,20% {
-    font-size: 15px;
     color: red;
     }
     40% {
@@ -57,13 +55,13 @@
 .rubber:hover {
     color:red;
     position: relative;
-    animation: rubber 4s infinite;
+    animation: rubber infinite;
     animation-duration: 4s;
 }
 
 .crazy:hover {
     position: relative;
-    animation: crazy 4s infinite;
+    animation: crazy infinite;
     animation-duration: 4s;
 }
 
