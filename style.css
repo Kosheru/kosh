@@ -57,13 +57,13 @@
 .rubber:hover {
     color:red;
     position: relative;
-    animation: rubber;
+    animation: rubber 4s infinite;
     animation-duration: 4s;
 }
 
 .crazy:hover {
     position: relative;
-    animation: crazy;
+    animation: crazy 4s infinite;
     animation-duration: 4s;
 }
 
