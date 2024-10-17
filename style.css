@@ -56,13 +56,13 @@
     color:red;
     position: relative;
     animation: rubber infinite;
-    animation-duration: 4s;
+    animation-duration: 10s;
 }
 
 .crazy:hover {
     position: relative;
     animation: crazy infinite;
-    animation-duration: 4s;
+    animation-duration: 10s;
 }
 
 img {
