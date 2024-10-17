@@ -1,48 +1,39 @@
-
-
 <!DOCTYPE html>
-
-<html lang="vi">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Món ăn yêu thích</title>
-
-    <link rel="stylesheet" href="style.css">
-<style>
-    body {
-    background-color: red;
-    }
-    h1 {
-        margin-left: 5px;
-        font-size: 50px;
-    }
-</style>
-</head>
-
-<body>
-
-    <nav class="navbar">
-
-        <ul>
-
-            <li><a href="https://kosheru.github.io/">Home</a></li>
-
-            <li><a href="index"><b>Profile</b></a></li>
-
-            <li><a href="modular1">Whatever</a></li>
-
-            <li><a href="modular2">idek</a></li>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title>CSS Selector Practice</title>
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    <header id="main-header">
+      <h1>Welcome to My Website</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
+      </nav>
+    </header>
 
-    </nav>
-<h1 style="color:red">Tên của món ăn</h1>
-<p>Mô tả ngắn về món ăn, như thành phần chính và lý do bạn thích nó.</p>
-<img src="OIP.jpg">
-</body>
+    <main>
+      <section class="intro">
+        <h2 class="section-title">Introduction</h2>
+        <p>Welcome to the introduction of my website. Here you'll find...</p>
+      </section>
+
+      <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p class="info">
+          I am a web developer who loves creating simple and functional designs.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 My Website</p>
+    </footer>
+  </body>
 </html>
