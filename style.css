@@ -1,3 +1,24 @@
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Others */
 * {
   position: relative;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
@@ -86,10 +107,12 @@ footer {
 #container {
   width: 100%;
 }
+
 .room span {
   margin-left: 20px;
   position: relative;
-  display: inline-block; /* inline block */
+  display: inline-block;
+  /* inline block */
   color: #000000;
   animation: waviy 1s infinite;
   animation-delay: calc(0.1s * var(--i));
@@ -142,6 +165,7 @@ img {
 .name {
   margin-left: 20px;
 }
+
 .nameArtist {
   margin-left: 20px;
 }
