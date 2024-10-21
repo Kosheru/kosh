@@ -6,13 +6,10 @@
 .room {
   position: relative;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
-  font-size: 30px;
+  font-size: 40px;
 }
 
 /* animation */
-.nameArtist:hover + .name, .room, .whatever {
-display: block;
-}
 @keyframes waviy {
 
   0%,
@@ -83,14 +80,11 @@ footer {
   display: flex;
   position: absolute;
   margin-left: 2.3rem;
-  margin-top: 6%;
+  margin-top: 4%;
 }
 
 #container {
   width: 100%;
-}
-.whatever {
-  display: none;
 }
 .room span {
   margin-left: 20px;
@@ -99,7 +93,6 @@ footer {
   color: #000000;
   animation: waviy 1s infinite;
   animation-delay: calc(0.1s * var(--i));
-  --a: 1;
 }
 
 .rubber:hover,
@@ -148,7 +141,6 @@ img {
 
 .name {
   margin-left: 20px;
-  display: none;
 }
 .nameArtist {
   margin-left: 20px;
