@@ -75,9 +75,7 @@
 #container {
   width: 100%;
 }
-#container p {
-  text-align: justify;
-}
+
 .room span {
   margin-left: 20px;
   position: relative;
