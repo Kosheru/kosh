@@ -1,3 +1,6 @@
+.whatever {
+  margin-top: 2%
+}
 #current {
   font-size: large;
 }
@@ -65,16 +68,6 @@
   }
 }
 
-@keyframes hover {
-  0% {
-    // normal styles
-  }
-
-  100% {
-    // hover styles
-  }
-}
-
 /* styles.css */
 hr {
   margin-right: 1rem;
@@ -99,6 +92,7 @@ footer {
   color: #000000;
   animation: waviy 1s infinite;
   animation-delay: calc(0.1s * var(--i));
+  margin-top: 2%
 }
 
 .rubber:hover,
