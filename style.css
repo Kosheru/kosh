@@ -10,6 +10,13 @@
 }
 
 /* animation */
+@keyframes ongod {
+  100% {
+    transform: scaleX(0.2) scaleY(0.2);
+  }
+
+}
+
 @keyframes waviy {
 
   0%,
@@ -75,12 +82,14 @@
 hr {
   margin-right: 1rem;
 }
+
 footer {
   display: flex;
   position: absolute;
   margin-left: 2.3rem;
   margin-top: 6%;
 }
+
 #container {
   width: 100%;
 }
@@ -136,6 +145,11 @@ img {
   float: left;
   margin-right: 20px;
   margin-left: 3rem;
+  animation-name: ongod scale linear infinite;
+  animation-duration: 10s;
+  animation-fill-mode: backwards;
+  animation-play-state: paused;
+
 }
 
 .name {
