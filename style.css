@@ -55,6 +55,10 @@
 }
 
 /* styles.css */
+.separator {
+border-left: 2px;
+height: auto;
+}
   .room span {
     margin-left: 20px;
     position: relative;
