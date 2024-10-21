@@ -10,6 +10,9 @@
 }
 
 /* animation */
+.nameArtist:hover + .name, .room, .whatever {
+display: block;
+}
 @keyframes waviy {
 
   0%,
@@ -86,14 +89,17 @@ footer {
 #container {
   width: 100%;
 }
-
+.whatever {
+  display: none;
+}
 .room span {
   margin-left: 20px;
   position: relative;
-  display: inline-block;
+  display: inline-block; /* inline block */
   color: #000000;
   animation: waviy 1s infinite;
   animation-delay: calc(0.1s * var(--i));
+  --a: 1;
 }
 
 .rubber:hover,
@@ -141,6 +147,10 @@ img {
 }
 
 .name {
+  margin-left: 20px;
+  display: none;
+}
+.nameArtist {
   margin-left: 20px;
 }
 
