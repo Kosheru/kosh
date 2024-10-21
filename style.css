@@ -72,6 +72,10 @@
 }
 
 /* styles.css */
+#container {
+  width: 100%;
+}
+
 .room span {
   margin-left: 20px;
   position: relative;
