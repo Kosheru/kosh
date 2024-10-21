@@ -57,7 +57,7 @@
 /* styles.css */
 .separator {
 border-left: 2px;
-height: auto;
+height: 50px;
 }
   .room span {
     margin-left: 20px;
