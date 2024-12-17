@@ -32,3 +32,5 @@ body {
   background-color: #ddd;
   color: black;
 }
+nav {float: inline-end;}
+div {float: inline-start;}
